@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+}
+
+.carta {
+    height: 660px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px
+    
+
+}
+
+.pintaTop {
+    height: 150px;
+    width: 130px;
+    font-size: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.numero {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numero p {
+   margin: 0;
+   font-size: 200px;
+}
+
+.pintaBot {
+    height: 150px;
+    width: 130px;
+    font-size: 130px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
